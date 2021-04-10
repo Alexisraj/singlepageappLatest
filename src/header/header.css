@@ -5,9 +5,15 @@
   height: 100px;
   width: 100%;
   font-size: 1.5625rem;
+  display: flex;
+  justify-content: center;
 }
-.header time {
+.time {
+  background-color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: azure;
   right: 0;
   font-size: 1rem;
+  display: flex;
+  justify-content: flex-end;
 }

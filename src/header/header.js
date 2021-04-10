@@ -5,7 +5,7 @@ import Clock from 'react-live-clock';
 
 function Header (){
 return (
-   
+   <>
     <div className='header'>
         <Typed 
             backDelay={200}
@@ -13,9 +13,13 @@ return (
                         typeSpeed={200}
                         loop
         />
-        <br />
-        <Clock format={'h:mm:ssa'} ticking={true} />
+        
     </div>
+    <div className='time'>
+    
+    <Clock format={'h:mm:ssa'} ticking={true} />
+    </div>
+    </>
 
 );
 }

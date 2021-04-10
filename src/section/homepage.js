@@ -3,7 +3,10 @@
 function HomePage(){
 
     return (
-        <div>This is home page</div>
+        <div>
+            <h1>Home Page</h1>
+            <p>This is home page content</p>
+        </div>
     );
 }
 

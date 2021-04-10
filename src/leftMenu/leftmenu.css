@@ -1,5 +1,5 @@
 .menu {
-  background-color: rgb(139, 236, 236);
+  background-color: #1800ff;
   width: 20%;
   height: 300px;
   overflow-x: hidden;
@@ -7,7 +7,7 @@
 .menu a {
   text-decoration: none;
   font-size: 20px;
-  color: #000000;
+  color: #fff;
   display: block;
   padding: 10px;
 }
@@ -23,4 +23,5 @@
 .body {
   display: flex;
   top: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

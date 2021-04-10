@@ -1,3 +1,4 @@
+import WeekDays from "./weekdays";
 
 
 function HomePage(){
@@ -6,6 +7,7 @@ function HomePage(){
         <div>
             <h1>Home Page</h1>
             <p>This is home page content</p>
+            <WeekDays />
         </div>
     );
 }

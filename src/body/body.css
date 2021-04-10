@@ -15,9 +15,9 @@
   color: azure;
 }
 .content {
-  padding-left: 20%;
   width: 80%;
   background-color: rgb(199, 247, 152);
+  padding: 10px 0 0 10px;
 }
 
 .body {

@@ -1,4 +1,4 @@
-import './leftmenu.css'
+import './body.css'
 import HomePage from '../section/homepage';
 import Contact from '../section/contact';
 import AboutUs from '../section/aboutus';
@@ -23,8 +23,8 @@ function LeftMenu(){
             <div className="content">
                 <Switch>
                     <Route exact path="/"><HomePage /></Route>
-                    <Route exact path="/contact"><Contact /></Route>
-                    <Route exact path="/about"><AboutUs /></Route>
+                    <Route  exact path="/contact"><Contact /></Route>
+                    <Route  exact path="/about"><AboutUs /></Route>
                 </Switch>
             </div>
         </Router>

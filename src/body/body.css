@@ -5,10 +5,10 @@
 }
 .menu a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #fff;
   display: block;
-  padding: 10px;
+  padding: 0.625rem;
 }
 .menu a:hover {
   color: yellow;
@@ -16,12 +16,12 @@
 .content {
   width: 80%;
   background-color: rgb(239, 245, 234);
-  padding: 10px 0 0 10px;
+  padding: 0.625rem 0 0 0.625rem;
 }
 
 .body {
   height: 100vh;
   display: flex;
-  top: 100px;
+  top: 6.25rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

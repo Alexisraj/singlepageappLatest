@@ -14,11 +14,9 @@ function Body(){
         <div className="body" > 
         <Router>
             <div className="menu">
-                <Link className="each" to="/">Home</Link>
-                <br />
-                <Link className="each"  to="/contact">Contact</Link>
-                <br />
-                <Link className="each"  to="/about">About US</Link>
+                <Link  to="/">Home</Link>
+                <Link   to="/contact">Contact</Link>
+                <Link   to="/about">About US</Link>
             </div>
             <div className="content">
                 <Switch>

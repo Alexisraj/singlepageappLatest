@@ -1,7 +1,6 @@
 .menu {
   background-color: #1800ff;
   width: 20%;
-  height: 300px;
   overflow-x: hidden;
 }
 .menu a {
@@ -21,6 +20,7 @@
 }
 
 .body {
+  height: 100vh;
   display: flex;
   top: 100px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

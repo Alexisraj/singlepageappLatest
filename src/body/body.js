@@ -9,7 +9,7 @@ import {
     Link
   } from "react-router-dom";
   
-function LeftMenu(){
+function Body(){
     return (
         <div className="body" > 
         <Router>
@@ -32,4 +32,4 @@ function LeftMenu(){
     );
 }
 
-export default LeftMenu;
+export default Body;

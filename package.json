@@ -36,7 +36,10 @@
     ]
   },
   "devDependencies": {
+    "moment-timezone": "^0.5.33",
     "react-feather": "^2.0.9",
+    "react-live-clock": "^5.0.16",
+    "react-moment": "^1.1.1",
     "react-router-dom": "^5.2.0",
     "react-typed": "^1.2.0"
   }

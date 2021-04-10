@@ -1,5 +1,4 @@
 .header {
-  vertical-align: middle;
   background-color: black;
   color: yellow;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -7,7 +6,8 @@
   width: 100%;
   font-size: 25px;
 }
-.header img {
-  height: 100px;
-  width: 50%;
+.header time {
+  color: azure;
+  right: 0;
+  font-size: 16px;
 }

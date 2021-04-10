@@ -6,7 +6,7 @@ function Day(props){
         <>
         <div>{props.title}</div>
         </>
-    )
+    );
 }
 
 export default Day;

@@ -20,7 +20,7 @@
 }
 
 .body {
-  height: 100vh;
+  height: 75vh;
   display: flex;
   top: 6.25rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

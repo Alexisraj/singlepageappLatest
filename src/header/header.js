@@ -6,7 +6,11 @@ function Header() {
   return (
     <>
       <div className="logo">
-        <img style={{ height: "100px" }} src={"/images/tenor.gif"} alt="logo" />
+        <img
+          style={{ height: "6.25rem" }}
+          src={"/images/tenor.gif"}
+          alt="logo"
+        />
       </div>
       <div className="headerText">
         <Typed

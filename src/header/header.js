@@ -1,27 +1,26 @@
-import './header.css';
-import Typed from 'react-typed';
-import Clock from 'react-live-clock';
+import "./header.css";
+import Typed from "react-typed";
+import Clock from "react-live-clock";
 
-
-function Header (){
-return (
-   <>
-    <div className='header'>
-        <Typed 
-            backDelay={200}
-            strings={['We are welcoming you to','React Champianship Program']}
-                        typeSpeed={200}
-                        loop
+function Header() {
+  return (
+    <>
+      <div className="logo">
+        <img style={{ height: "100px" }} src={"/images/tenor.gif"} alt="logo" />
+      </div>
+      <div className="headerText">
+        <Typed
+          backDelay={200}
+          strings={["We are welcoming you to", "React Champianship Program"]}
+          typeSpeed={200}
+          loop
         />
-        
-    </div>
-    <div className='time'>
-    
-    <Clock format={'h:mm:ssa'} ticking={true} />
-    </div>
+      </div>
+      <div className="time">
+        <Clock format={"h:mm:ssa"} ticking={true} />
+      </div>
     </>
-
-);
+  );
 }
 
 export default Header;

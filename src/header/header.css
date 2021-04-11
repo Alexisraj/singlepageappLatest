@@ -1,4 +1,10 @@
-.header {
+.logo {
+  position: fixed;
+  height: 100px;
+  background-color: black;
+  justify-content: left;
+}
+.headerText {
   background-color: black;
   color: yellow;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

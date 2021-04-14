@@ -2,6 +2,7 @@ import "./body.css";
 import HomePage from "../section/homepage";
 import Contact from "../section/contact";
 import AboutUs from "../section/aboutus";
+import Events from "../section/events";
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,6 +24,9 @@ function Body() {
           <NavLink to="/about" activeStyle={{ fontWeight: "bold" }}>
             About Us
           </NavLink>
+          <NavLink to="/events" activeStyle={{ fontWeight: "bold" }}>
+            Events
+          </NavLink>
         </div>
         <div className="content">
           <Switch>
@@ -34,6 +38,9 @@ function Body() {
             </Route>
             <Route exact path="/about">
               <AboutUs />
+            </Route>
+            <Route exact path="/events">
+              <Events />
             </Route>
           </Switch>
         </div>

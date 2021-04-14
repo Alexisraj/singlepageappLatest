@@ -36,7 +36,9 @@
     ]
   },
   "devDependencies": {
+    "axios": "^0.21.1",
     "moment-timezone": "^0.5.33",
+    "react-datepicker": "^3.7.0",
     "react-feather": "^2.0.9",
     "react-live-clock": "^5.0.16",
     "react-moment": "^1.1.1",

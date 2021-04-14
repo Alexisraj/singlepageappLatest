@@ -30,18 +30,10 @@ function Body() {
         </div>
         <div className="content">
           <Switch>
-            <Route exact path="/">
-              <HomePage />
-            </Route>
-            <Route exact path="/contact">
-              <Contact />
-            </Route>
-            <Route exact path="/about">
-              <AboutUs />
-            </Route>
-            <Route exact path="/events">
-              <Events />
-            </Route>
+            <Route exact path="/" component={HomePage} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/about" component={AboutUs} />
+            <Route exact path="/events" component={Events} />
           </Switch>
         </div>
       </Router>

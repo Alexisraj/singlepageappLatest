@@ -15,7 +15,7 @@ function Body() {
     <div className="body">
       <Router>
         <div className="menu">
-          <NavLink to="/" activeStyle={{ fontWeight: "bold" }}>
+          <NavLink exact to="/" activeStyle={{ fontWeight: "bold" }}>
             Home
           </NavLink>
           <NavLink to="/contact" activeStyle={{ fontWeight: "bold" }}>

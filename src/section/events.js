@@ -32,6 +32,7 @@ const Events = () => {
 
   return (
     <>
+      <h1>Historical Events</h1>
       <span>Pick a date: </span>
       <DatePicker
         selected={startDate}

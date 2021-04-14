@@ -15,16 +15,16 @@ function Body() {
     <div className="body">
       <Router>
         <div className="menu">
-          <NavLink exact to="/" activeStyle={{ fontWeight: "bold" }}>
+          <NavLink exact to="/" activeClassName="activeClass">
             Home
           </NavLink>
-          <NavLink to="/contact" activeStyle={{ fontWeight: "bold" }}>
+          <NavLink to="/contact" activeClassName="activeClass">
             Contact
           </NavLink>
-          <NavLink to="/about" activeStyle={{ fontWeight: "bold" }}>
+          <NavLink to="/about" activeClassName="activeClass">
             About Us
           </NavLink>
-          <NavLink to="/events" activeStyle={{ fontWeight: "bold" }}>
+          <NavLink to="/events" activeClassName="activeClass">
             Events
           </NavLink>
         </div>

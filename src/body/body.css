@@ -25,3 +25,7 @@
   top: 6.25rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.activeClass {
+  font-weight: bold;
+  color: yellow !important;
+}

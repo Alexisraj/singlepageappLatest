@@ -32,6 +32,7 @@ const Events = () => {
 
   return (
     <>
+      <span>Pick a date: </span>
       <DatePicker
         selected={startDate}
         onChange={(date) => searchHistory(date)}

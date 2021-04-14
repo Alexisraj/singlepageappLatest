@@ -25,7 +25,7 @@ function Body() {
             About Us
           </NavLink>
           <NavLink to="/events" activeClassName="activeClass">
-            Events
+            Historical Events
           </NavLink>
         </div>
         <div className="content">

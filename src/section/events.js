@@ -10,8 +10,11 @@ const Events = () => {
     console.log("test date");
     console.log(selectdate);
     setStartDate(selectdate);
-    const month = selectdate.getMonth();
+    const month = selectdate.getMonth() + 1;
     const date = selectdate.getDate();
+    // console.log(`Selected Month is:${month}`);
+    // console.log(`Selected Date is:${date}`);
+
     axios
       .get(`http://numbersapi.com/${month}/${date}/date`)
       .then((res) => {

@@ -10,30 +10,35 @@ import {
   NavLink,
 } from "react-router-dom";
 
+const homePath = "/";
+const contactPath = "/contact";
+const aboutPath = "/about";
+const eventPath = "/events";
+
 function Body() {
   return (
     <div className="body">
       <Router>
         <div className="menu">
-          <NavLink exact to="/" activeClassName="activeClass">
+          <NavLink exact to={homePath} activeClassName="activeClass">
             Home
           </NavLink>
-          <NavLink to="/contact" activeClassName="activeClass">
+          <NavLink to={contactPath} activeClassName="activeClass">
             Contact
           </NavLink>
-          <NavLink to="/about" activeClassName="activeClass">
+          <NavLink to={aboutPath} activeClassName="activeClass">
             About Us
           </NavLink>
-          <NavLink to="/events" activeClassName="activeClass">
+          <NavLink to={eventPath} activeClassName="activeClass">
             Historical Events
           </NavLink>
         </div>
         <div className="content">
           <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/about" component={AboutUs} />
-            <Route exact path="/events" component={Events} />
+            <Route exact path={homePath} component={HomePage} />
+            <Route exact path={contactPath} component={Contact} />
+            <Route exact path={aboutPath} component={AboutUs} />
+            <Route exact path={eventPath} component={Events} />
           </Switch>
         </div>
       </Router>
